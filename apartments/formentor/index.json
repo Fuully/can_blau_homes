@@ -1,0 +1,14 @@
+{
+  "slug": "formentor",
+  "name": "Formentor",
+  "metaDescription": "Apartamento Formentor en Can Blau Homes, Palma.",
+  "cardPrice": "Desde 85€ / noche",
+  "tagline": "Consultar disponibilidad",
+  "intro": ["<p class=\"apartment-lead\"><em>Ficha en actualización.</em></p>"],
+  "bodyHtml": "<p>Información detallada disponible próximamente.</p>",
+  "servicesRoom": ["Consulte servicios estándar en recepción."],
+  "servicesBuilding": ["Terraza en la azotea con piscina", "WiFi", "Ascensor"],
+  "extras": "Cuna y tronas bajo petición.",
+  "gallery": ["img/apartment.jpg"],
+  "galleryAlt": "Apartamento Formentor"
+}

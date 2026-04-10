@@ -1,0 +1,43 @@
+{
+  "slug": "mayurqa",
+  "name": "Mayurqa",
+  "metaDescription": "Dúplex Mayurqa en el centro de Palma: dos dormitorios, dos baños, terraza común con piscina. Can Blau Homes.",
+  "cardPrice": "Desde 85€ / noche",
+  "tagline": "Desde 85€ / noche · Máx. 4 personas",
+  "intro": [
+    "<p class=\"apartment-lead\"><em>Es nuestro apartamento dúplex. Llevamos el nombre de la isla que vio nacer, <strong>Madina Mayurqa</strong>. Sin duda, un paraíso mediterráneo.</em></p>",
+    "<p class=\"apartment-lead\"><em>La ciudad romana de Palma fue conquistada en 903 por los musulmanes, que permanecieron en la isla hasta el gran desembarco de Jaime I el Conquistador el 31 de diciembre de 1229.</em></p>"
+  ],
+  "bodyHtml": "<p>Su configuración en <strong>dos alturas</strong> crea una doble dimensión de confort y bienestar. Decoración vintage-moderna. Ideal para dos parejas o familias pequeñas. Dos dormitorios dobles con dos camas individuales 90×200&nbsp;cm, una cama doble 160×200&nbsp;cm y <strong>dos baños</strong>. Vistas a la tranquila plaza frontal. El apartamento Mayurqa es un dúplex amplio y cómodo.</p>",
+  "servicesRoom": [
+    "TV de plasma con canales vía satélite",
+    "Aire acondicionado y calefacción",
+    "WiFi ilimitado de alta velocidad (fibra óptica)",
+    "Toallas y ropa de cama",
+    "Toallas de playa",
+    "Equipo de sonido envolvente con Bluetooth (compatible con iPad / iPod / iPhone)",
+    "Secador de pelo",
+    "Servicio de limpieza",
+    "Sofá cama",
+    "Caja fuerte",
+    "Cafetera Nespresso",
+    "Plancha y tabla de planchar"
+  ],
+  "servicesBuilding": [
+    "Terraza en la azotea con piscina",
+    "Hamacas y zona de relax",
+    "Lavadora y secadora",
+    "Sombrillas",
+    "Ascensor",
+    "Biblioteca",
+    "Parking sujeto a disponibilidad",
+    "Bicicletas"
+  ],
+  "extras": "También disponemos de cuna, tronas y vajilla infantil bajo petición.",
+  "gallery": [
+    "img/apartment.jpg",
+    "img/apartment.jpg",
+    "img/apartment.jpg"
+  ],
+  "galleryAlt": "Interior del apartamento Mayurqa"
+}

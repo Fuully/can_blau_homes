@@ -1,0 +1,1 @@
+window.APARTMENTS_CATALOG = {"order":["mayurqa","formentor","mediterrani","deia","tramuntana","soller"],"homeCards":["mayurqa","formentor","mediterrani","soller"],"labels":{"mayurqa":"Apartamento Mayurqa","formentor":"Apartamento Formentor","mediterrani":"Apartamento Mediterrani","deia":"Apartamento Deià","tramuntana":"Apartamento Tramuntana","soller":"Apartamento Sóller"}};

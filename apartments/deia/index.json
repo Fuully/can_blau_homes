@@ -1,0 +1,14 @@
+{
+  "slug": "deia",
+  "name": "Deià",
+  "metaDescription": "Apartamento Deià en Can Blau Homes, Palma.",
+  "cardPrice": "",
+  "tagline": "Consultar disponibilidad",
+  "intro": ["<p class=\"apartment-lead\"><em>Ficha en actualización.</em></p>"],
+  "bodyHtml": "<p>Información detallada disponible próximamente.</p>",
+  "servicesRoom": ["Consulte recepción."],
+  "servicesBuilding": ["Terraza en la azotea con piscina", "WiFi"],
+  "extras": "",
+  "gallery": ["img/apartment.jpg"],
+  "galleryAlt": "Apartamento Deià"
+}

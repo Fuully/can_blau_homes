@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    (function () {
+      var p = location.pathname;
+      if (p.endsWith("/")) return;
+      if (/\.html?$/i.test(p)) p = p.replace(/\/[^/]+$/, "/");
+      else p = p + "/";
+      var b = document.createElement("base");
+      b.href = location.origin + p;
+      var m = document.querySelector("meta[charset]");
+      if (m && m.parentNode) m.parentNode.insertBefore(b, m.nextSibling);
+      else document.head.insertBefore(b, document.head.firstChild);
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apartamento – Can Blau Homes</title>
+  <meta name="description" content="" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../styles.css" />
+</head>
+<body class="page-apartment">
+  <header class="header">
+    <div class="header-inner">
+      <a href="../../index.html" class="logo">Can Blau <span>Homes</span></a>
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="nav" aria-label="Principal">
+        <ul>
+          <li><a href="../../index.html#inicio">Inicio</a></li>
+          <li><a href="../../index.html#porque">¿Por qué Can Blau?</a></li>
+          <li><a href="../../index.html#terraza">Terraza</a></li>
+          <li><a href="../../index.html#alojamientos">Alojamientos</a></li>
+          <li><a href="../../index.html#entorno">Entorno</a></li>
+          <li><a href="../../index.html#reservas">Reservas</a></li>
+          <li><a href="../../index.html#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
+
+  <main id="apartment-main"></main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-credits">Creado por RC Protocolo & Comunicación 2015 © Can Blau Homes</p>
+      <p class="footer-address">
+        <strong>CAN BLAU HOMES: TURISMO DE INTERIOR EN EL CENTRO DE PALMA</strong><br />
+        Carrer de la Sala dels Flassaders nº6, 07002 Palma de Mallorca ·
+        <a href="tel:+34615842722">+34 615 84 27 22</a> ·
+        <a href="mailto:blaunit@gmail.com">blaunit@gmail.com</a>
+      </p>
+    </div>
+  </footer>
+
+  <div id="cookie-notice" class="cookie-notice">
+    <div class="cookie-inner">
+      <p><strong>Uso de cookies</strong><br />Este sitio utiliza cookies para mejorar tu experiencia. Si continúas navegando aceptas nuestra <a href="#">política de cookies</a>.</p>
+      <button id="cookie-accept" class="btn btn-primary">Aceptar</button>
+    </div>
+  </div>
+
+  <script src="../../script.js"></script>
+  <script src="../catalog-embed.js"></script>
+  <script src="./apartment-embed.js"></script>
+  <script src="../../apartment-carousel.js"></script>
+  <script src="../../apartment-page.js"></script>
+</body>
+</html>
