@@ -34,10 +34,6 @@
     "Bicicletas"
   ],
   "extras": "También disponemos de cuna, tronas y vajilla infantil bajo petición.",
-  "gallery": [
-    "img/apartment.jpg",
-    "img/apartment.jpg",
-    "img/apartment.jpg"
-  ],
+  "gallery": ["img/apartment.webp"],
   "galleryAlt": "Interior del apartamento Mayurqa"
 }

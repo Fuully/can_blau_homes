@@ -213,7 +213,7 @@ a:hover {
       rgba(26, 24, 21, 0.1) 50%,
       rgba(26, 24, 21, 0.4) 100%
     ),
-    url("img/hero.jpg") center / cover no-repeat;
+    url("img/hero.webp") center / cover no-repeat;
 }
 
 .hero-inner {

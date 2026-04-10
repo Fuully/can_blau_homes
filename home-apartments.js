@@ -17,7 +17,7 @@
     var label = labels[slug] || 'Apartamento ' + slug;
     var price = data.cardPrice || '';
     var gallery = data.gallery || [];
-    var first = gallery.length ? gallery[0] : 'img/apartment.jpg';
+    var first = gallery.length ? gallery[0] : 'img/apartment.webp';
     var imgUrl = 'apartments/' + encodeURIComponent(slug) + '/' + encodeURI(first.replace(/^\//, ''));
     var fichaUrl = 'apartments/' + encodeURIComponent(slug) + '/index.html';
 

@@ -68,7 +68,7 @@
   }
 
   function buildCarouselHtml(data) {
-    var paths = data.gallery && data.gallery.length ? data.gallery : ['img/apartment.jpg'];
+    var paths = data.gallery && data.gallery.length ? data.gallery : ['img/apartment.webp'];
     var altMain = data.galleryAlt || 'Apartamento ' + data.name;
     var slides = paths
       .map(function (rel, idx) {

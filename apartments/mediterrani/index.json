@@ -9,6 +9,6 @@
   "servicesRoom": ["Consulte servicios estándar en recepción."],
   "servicesBuilding": ["Terraza en la azotea con piscina", "WiFi", "Ascensor"],
   "extras": "Cuna y tronas bajo petición.",
-  "gallery": ["img/apartment.jpg"],
+  "gallery": ["img/apartment.webp"],
   "galleryAlt": "Apartamento Mediterrani"
 }
